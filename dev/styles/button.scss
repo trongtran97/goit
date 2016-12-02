@@ -1,0 +1,18 @@
+.btn {
+	padding: 8px 20px;
+	background-color: #ffffff;
+	box-shadow: none;
+	border: 1px solid #000000;
+	border-radius: 2px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 11px;
+	font-weight: 400;
+	&:hover, &.active{
+		cursor: pointer;
+		background-color: $nav_li_color;
+		color: #ffffff;
+		border: 1px solid transparent;
+	}
+}

@@ -1,0 +1,53 @@
+.got_it_for_business {
+	background-image: url(https://www.gotit.vn/layouts/v3/images/gotit_business_bg.png);
+	background-position: 170px 74px;
+    background-color: $nav_li_color;
+    background-size: 1290px auto;
+    background-repeat: no-repeat;
+    height: 492px;
+    width: 100%;
+}
+.got_it_for_business_left {
+    float: left;
+	width: 50%;
+    position: relative;
+    top:150px;
+	.title {
+		h4 {
+			color: #ffffff;
+		}
+		p {
+			color: #ffffff;
+			font-size: 20px;
+            margin: 25px 110px;
+		}
+	}
+	.explore_now {
+		width: 270px;
+		height: 54px;
+		color: $nav_li_color;
+		background-color: #fff;
+		text-align: center;
+		font-size: 16px;
+		text-transform: uppercase;
+		display: block;
+		margin: 50px auto;
+		border: 0px solid #fff;
+		border-radius: 4px;
+		cursor: pointer;
+		&:hover {
+			background-color: darken(#fff, 3%);
+		}
+
+	}
+}.got_it_for_business_right {
+     width: 50%;
+     float: right;
+     overflow: hidden;
+     height: 100%;
+    img {
+        position: relative;
+        top: 77px;
+        left: 73px;
+    }
+ }

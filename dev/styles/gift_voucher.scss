@@ -1,0 +1,46 @@
+.gift_voucher {
+	padding-top: 80px;
+	background: url(https://www.gotit.vn/layouts/v3/images/b2c-bg.jpg) #F7F6F4 no-repeat center;
+	display: flex;
+	.gift_voucher_left {
+		width: 50%;
+		img {
+			display: block;
+			margin: 0 auto;
+			width: 310px;
+		}
+	}
+	.gift_voucher_right {
+		width: 50%;
+		padding-left: -20px;
+		img {
+			display: block;
+			margin: 0 auto;
+			width: 110px;
+		}
+		.title {
+			padding-top: 50px;
+		}
+		.find_a_gift_now {
+			text-transform: uppercase;
+			cursor: pointer;
+			border-radius: 4px;
+			border: 0px solid #ffffff;
+			background-color: $nav_li_color;
+			color: #ffffff;
+			margin: 50px auto 0;
+			display: block;
+			width: 270px;
+			height: 54px;
+			font-size: 20px;
+			font-weight: bold;
+			&:hover {
+				background-color: darken($nav_li_color, 10%);
+			}
+		}
+		.link {
+			padding-top: 20px;
+			text-align: center;
+		}
+	}
+}

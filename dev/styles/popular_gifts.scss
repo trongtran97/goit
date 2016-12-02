@@ -1,0 +1,21 @@
+.popular_gifts {
+	background: #ffffff;
+	position: relative;
+    margin-bottom: 80px;
+	.play {
+		position: relative;
+		top: -80px;
+
+		img {
+			width: 200px;
+			display: block;
+			margin: 0 auto;
+			box-shadow: none;
+			cursor: pointer;
+		}
+	}
+	.title {
+		padding-top: 0 !important;
+		margin-top: -75px;
+	}
+}

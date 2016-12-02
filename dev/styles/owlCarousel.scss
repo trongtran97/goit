@@ -1,0 +1,157 @@
+.owl-theme {
+    .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: block;
+        /* padding: 0px 40px; */
+        padding: 0px 20px;
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        margin-top: -50px;
+    }
+    .owl-dots {
+        position: absolute !important;
+        width: 100%;
+        bottom: 20px;
+        border: 200px;
+        .owl-dot {
+            zoom: 1.2;
+            span {
+                background-color: rgba(0, 0, 0, 0.45);
+            }
+            &.active, &:hover {
+                span {
+                    background: #FFFFFF;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+                    -moz-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.3);
+                    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+    }
+}
+.owl-theme .owl-nav  {
+    .owl-prev, .owl-prev:hover {
+        float: left;
+        background: url("https://www.gotit.vn/layouts/v3/images/arrow_prev.png");
+        background-size: 30px 50px;
+        background-repeat: no-repeat;
+    }
+    .owl-next, .owl-next:hover {
+        float: right;
+        background: url("https://www.gotit.vn/layouts/v3/images/arrow_next.png");
+        background-size: 30px 50px;
+        background-repeat: no-repeat;
+    }
+    [class*=owl-] {
+        height: 50px;
+        width: 30px;
+        color: transparent;
+        opacity: 0;
+        &:hover {
+            color: transparent;
+            opacity: 1;
+        }
+    }
+}
+.owl-carousel {
+    .black {
+        h4, p {
+            color: black!important;
+        }
+        a {
+            color: black!important;
+        }
+        .get-it-now {
+            background-color: #865309!important;
+            color: #FFFFFF!important;
+        }
+    }
+    .content {
+        position: absolute;
+        top: 70px;
+        width: 35%;
+        left: 160px;
+        .title {
+            text-align: left!important;
+            h4 {
+                line-height: 55px;
+                color: #FFFFFF;
+                font-size: 35px;
+            }
+            p {
+                color: #FFFFFF;
+                margin-top: 10px;
+                padding: 10px 0px;
+            }
+        }
+        .get-it-now {
+            width: 230px;
+            height: 54px;
+            color: #ff5f5f;
+            background-color: #fff;
+            text-align: center;
+            font-size: 20px;
+            text-transform: uppercase;
+            display: block;
+            border: 0 solid #fff;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 20px 0 10px;
+            font-weight: 500;
+        }
+        a {
+            color: #FFFFFF;
+            font-size: 14px;
+        }
+    }
+}
+.owl-carousel {
+    width: 100%;
+    z-index: 0;
+    top: 50px;
+}
+.slick-slider {
+    margin-top: 20px;
+    span {
+        width: 50px;
+        background: #fff;
+        height: 100%;
+        position: absolute;
+        display: block;
+        z-index: 10;
+        &.left {
+            left: 0;
+            top: 0;
+            box-shadow: 25px 0px 20px -10px #ffffff;
+        }
+    }
+    .owl-dots {
+        display: none;
+    }
+    .item {
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    }
+}
+#list-popular {
+    width: 75%;
+    background-color: #666666;
+    margin: 0 auto;
+    .owl-dots {
+        display: none;
+    }
+    .list-content {
+        border: 1px solid #c1bcbc !important;
+        background-color: #FFFFFF;
+        .image {
+            background-image: url("https://www.gotit.vn/layouts/v3/images/item_bg.png");
+            background-size: 100% 100%;
+        }
+    }
+}

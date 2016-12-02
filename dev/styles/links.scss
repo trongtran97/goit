@@ -1,0 +1,17 @@
+.links {
+    padding-left: 0;
+    & > li {
+        list-style: none;
+        float: left;
+        & > a {
+            display: block;
+            padding: 5px 10px;
+            color: #333;
+            text-decoration: none;
+
+        }
+        &.active > a,  & > a:hover {
+            text-decoration: none;
+        }
+    }
+}

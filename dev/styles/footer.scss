@@ -1,0 +1,72 @@
+.footer_up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    .logo {
+        width: 33%;
+        text-align: center;
+    }
+    .about {
+        width: 33%;
+    }
+    .bct {
+        width: 33%;
+        img {
+            width: 130px;
+            position: relative;
+            left: 100px;
+        }
+    }
+}
+.footer_down {
+    height: 50px;
+    display: flex;
+
+    .copyright {
+        height: 100%;
+        width: 33.333333%;
+        background-color: #F7F6F4;
+        display: flex;
+        align-items: center;
+        p {
+            margin-left: 20px;
+        }
+    }
+    .hotline {
+        height: 100%;
+        width: 33.333333%;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $nav_li_color;
+        p:nth-child(2) {
+            padding-left: 30px;
+        }
+    }
+    .back_to_up {
+        width: 33.33333%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        background-color: #F7F6F4;
+        a {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+            width: 160px;
+            background-image: url("https://www.gotit.vn/layouts/v3/images/backtotop.png");
+            background-repeat: no-repeat;
+            background-size: 45px;
+            background-position: 0px;
+            text-decoration: none;
+            color: #000000;
+            margin-right: 20px;
+            text-transform: uppercase;
+
+        }
+    }
+}

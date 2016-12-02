@@ -1,0 +1,56 @@
+.how_it_works{
+	margin-top: 100px;
+}
+.how_it_works_item_2{
+	padding: 20px 30px;
+	display: flex;
+	text-align: center;
+	img {
+		width: 120px;
+	}
+	h4 {
+		font-weight: bold;
+		font-size: 20px;
+		text-transform: uppercase;
+		line-height: 30px;
+		letter-spacing: 1px;
+		padding: 10px 0px;
+	}
+	p {
+		font-size: 16px;
+		color: #666;
+		padding: 0px 35px;
+		line-height: 30px;
+	}
+	.find_a_gift {
+		width: 33%;
+	}
+	.personalize {
+		width: 33%;
+	}
+	.send_your_gift {
+		width: 33%;
+	}
+
+}
+.video {
+	position: relative;
+	margin-top: 50px;
+	z-index: 0;
+	img {
+	display: block;
+	width: 800px;
+	margin: 0 auto;
+	margin-bottom: -175px;
+	}
+}
+.overlay {
+	margin: 0 auto;
+	width: 800px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
