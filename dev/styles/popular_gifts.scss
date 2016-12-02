@@ -7,15 +7,13 @@
 		top: -80px;
 
 		img {
-			width: 200px;
-			display: block;
-			margin: 0 auto;
-			box-shadow: none;
-			cursor: pointer;
+            width: 200px;
+            position: absolute;
+            left: 50%;
+            margin-left: -100px;
 		}
 	}
 	.title {
-		padding-top: 0 !important;
-		margin-top: -75px;
+		padding-top: 100px !important;
 	}
 }
